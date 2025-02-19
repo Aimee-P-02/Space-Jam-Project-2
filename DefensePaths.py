@@ -34,7 +34,7 @@ def BaseballSeams(step, numSeams, B, F = 1):
     z = R * zzz / rrr
 
     return Vec3(x, y, z)
-
+# separating x y and z for easier read
 def CircleX(theta):
     x = 50.0 * math.cos(theta)
     y = 50.0 * math.sin(theta)

@@ -24,7 +24,8 @@ class MyApp(ShowBase):
         
 
         
-    
+        # does not go in loop
+        # function def positions drones in its own loop
         theta = 0
         self.DroneCircleX(self.Planet4, nickName, theta)
         self.DroneCircleY(self.Planet4, nickName, theta)
